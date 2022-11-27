@@ -4,6 +4,7 @@ const port = 3000
 
 // 使用靜態檔案
 app.use(express.static('public'));
+app.use(express.static('dist'));
 
 // 設定路由
 // 首頁 index
