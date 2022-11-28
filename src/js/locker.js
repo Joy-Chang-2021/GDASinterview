@@ -5,7 +5,7 @@ import $ from 'jquery';
 import "../scss/locker.scss";
 
 // api
-const lockerStatusApi = "http://iotbase-gdaslocker.azurewebsites.net/webapi/system/example/box/status"
+const lockerStatusApi = "https://iotbase-gdaslocker.azurewebsites.net/webapi/system/example/box/status"
 // 儲存api資料
 let lockersData = null
 
