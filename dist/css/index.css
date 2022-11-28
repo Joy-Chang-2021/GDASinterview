@@ -1,0 +1,72 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/index.scss ***!
+  \**************************************************************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: Microsoft JhengHei;
+  width: 1024px;
+  height: 768px;
+  color: white;
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 5%;
+  background-image: url(../1f93a804d7e7693c4794.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.background header {
+  padding: 3% 0 0;
+}
+.background footer {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.index-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.index-main-wrapper h2 {
+  font-size: xx-large;
+  margin: 12% 0 8%;
+}
+.index-main-wrapper .index-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.index-main-wrapper .index-buttons .button-wrapper {
+  display: block;
+  background-color: white;
+  width: 11em;
+  height: 15em;
+  border-radius: 1em;
+  text-decoration: none;
+}
+.index-main-wrapper .index-buttons .button-wrapper div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3em;
+}
+.index-main-wrapper .index-buttons .button-wrapper div p {
+  margin-top: 2em;
+  font-size: x-large;
+  font-weight: bold;
+  color: #919191;
+}
