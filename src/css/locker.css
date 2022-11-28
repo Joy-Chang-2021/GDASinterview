@@ -32,3 +32,92 @@ html {
   font-weight: bold;
   letter-spacing: 1px;
 }
+
+.locker-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.locker-main-wrapper h2 {
+  margin: 2% 0 1%;
+  font-size: xx-large;
+  letter-spacing: 2px;
+}
+.locker-main-wrapper h4 {
+  margin: 0 0 2%;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.locker-main-wrapper .locker-wrapper {
+  width: 11em;
+  height: 27.5em;
+  padding: 0.3em;
+  background-color: white;
+}
+.locker-main-wrapper .locker-wrapper .locker-control {
+  width: 100%;
+  height: 58%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0px 18%;
+}
+.locker-main-wrapper .locker-wrapper .locker-control .locker-window {
+  width: 100%;
+  height: 35%;
+  background: linear-gradient(135deg, #e0eff9 0%, #e0eff9 49%, #bfe0f8 50%, #bfe0f8 100%);
+}
+.locker-main-wrapper .locker-wrapper .locker-control .locker-verifyingPanel {
+  width: 25%;
+  height: 10%;
+  margin-top: 13%;
+}
+.locker-main-wrapper .locker-wrapper .locker-boxes {
+  height: 42%;
+  padding-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1% 5%;
+}
+.locker-main-wrapper .locker-wrapper .locker-boxes .locker-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfcfcf;
+  color: grey;
+  font-weight: 600;
+}
+.locker-main-wrapper .locker-wrapper .locker-boxes .available {
+  background-color: #7ac26b;
+  color: white;
+}
+.locker-main-wrapper .locker-boxes-info {
+  display: flex;
+  justify-content: space-around;
+}
+.locker-main-wrapper .locker-boxes-info div {
+  margin-top: 0.5em;
+  display: flex;
+  align-items: center;
+}
+.locker-main-wrapper .locker-boxes-info div .info-icon {
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-right: 2px;
+  border-radius: 2px;
+}
+.locker-main-wrapper .locker-boxes-info div:first-child span {
+  background-color: #7ac26b;
+}
+.locker-main-wrapper .locker-boxes-info div:last-child span {
+  background-color: #cfcfcf;
+}
+.locker-main-wrapper .locker-boxes-info div p {
+  margin: 0;
+}
+.locker-main-wrapper .border {
+  border: 1px solid black;
+}
