@@ -93,6 +93,9 @@ html {
   background-color: #7ac26b;
   color: white;
 }
+.locker-main-wrapper .locker-wrapper .locker-boxes .available:hover {
+  cursor: pointer;
+}
 .locker-main-wrapper .locker-boxes-info {
   display: flex;
   justify-content: space-around;
