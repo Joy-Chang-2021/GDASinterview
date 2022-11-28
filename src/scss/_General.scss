@@ -1,5 +1,36 @@
+@import "../scss/Image";
+
+* {
+  box-sizing: border-box;
+}
+
 body,
 html {
+  font-family: Microsoft JhengHei;
   width: 1024px;
   height: 768px;
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 5%;
+  background-image: #{$background-img};
+  background-size: cover;
+  background-position: center;
+  header {
+    padding: 3% 0 0;
+  }
+  footer {
+    width: calc(100% - 10%);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
 }
